@@ -32,4 +32,7 @@
 		showMonthAfterYear: false,
 		yearSuffix: ''};
 	$.datepicker.setDefaults($.datepicker.regional['sl']);
+
+	return $.datepicker.regional['sl'];
+
 }));

@@ -33,4 +33,7 @@
 		showMonthAfterYear: false,
 		yearSuffix: ''};
 	$.datepicker.setDefaults($.datepicker.regional['fr']);
+
+	return $.datepicker.regional['fr'];
+
 }));

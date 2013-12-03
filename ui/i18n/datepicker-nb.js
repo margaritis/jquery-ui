@@ -30,4 +30,7 @@
 		yearSuffix: ''
 	};
 	$.datepicker.setDefaults($.datepicker.regional['nb']);
+
+	return $.datepicker.regional['nb'];
+
 }));

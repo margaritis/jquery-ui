@@ -31,4 +31,7 @@
 		showMonthAfterYear: false,
 		yearSuffix: ''};
 	$.datepicker.setDefaults($.datepicker.regional['ta']);
+
+	return $.datepicker.regional['ta'];
+
 }));

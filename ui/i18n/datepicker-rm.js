@@ -29,4 +29,7 @@
 		showMonthAfterYear: false,
 		yearSuffix: ''};
 	$.datepicker.setDefaults($.datepicker.regional['rm']);
+
+	return $.datepicker.regional['rm'];
+
 }));

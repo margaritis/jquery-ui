@@ -31,4 +31,7 @@
 		showMonthAfterYear: true,
 		yearSuffix: '年'};
 	$.datepicker.setDefaults($.datepicker.regional['zh-CN']);
+
+	return $.datepicker.regional['zh-CN'];
+
 }));

@@ -31,4 +31,7 @@
 		showMonthAfterYear: false,
 		yearSuffix: ''};
 	$.datepicker.setDefaults($.datepicker.regional['vi']);
+
+	return $.datepicker.regional['vi'];
+
 }));

@@ -31,4 +31,7 @@
 		showMonthAfterYear: false,
 		yearSuffix: ''};
 	$.datepicker.setDefaults($.datepicker.regional['it-CH']);
+
+	return $.datepicker.regional['it-CH'];
+
 }));

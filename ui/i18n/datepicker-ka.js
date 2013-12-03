@@ -29,4 +29,7 @@
 		showMonthAfterYear: false,
 		yearSuffix: ''};
 	$.datepicker.setDefaults($.datepicker.regional['ka']);
+
+	return $.datepicker.regional['ka'];
+
 }));

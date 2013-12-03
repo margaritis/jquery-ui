@@ -34,4 +34,7 @@
 		showMonthAfterYear: false,
 		yearSuffix: ''};
 	$.datepicker.setDefaults($.datepicker.regional['ro']);
+
+	return $.datepicker.regional['ro'];
+
 }));

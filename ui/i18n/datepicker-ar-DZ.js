@@ -31,4 +31,7 @@
 		showMonthAfterYear: false,
 		yearSuffix: ''};
 	$.datepicker.setDefaults($.datepicker.regional['ar-DZ']);
+
+	return $.datepicker.regional['ar-DZ'];
+
 }));

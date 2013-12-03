@@ -32,4 +32,7 @@
 		yearSuffix: ''
 	};
 	$.datepicker.setDefaults($.datepicker.regional['ky']);
+
+	return $.datepicker.regional['ky'];
+
 }));

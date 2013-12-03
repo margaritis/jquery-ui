@@ -31,4 +31,7 @@
 		yearSuffix: ''
 	};
 	$.datepicker.setDefaults($.datepicker.regional['no']);
+
+	return $.datepicker.regional['no'];
+
 }));

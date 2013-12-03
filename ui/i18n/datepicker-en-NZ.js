@@ -31,4 +31,7 @@
 		showMonthAfterYear: false,
 		yearSuffix: ''};
 	$.datepicker.setDefaults($.datepicker.regional['en-NZ']);
+
+	return $.datepicker.regional['en-NZ'];
+
 }));
