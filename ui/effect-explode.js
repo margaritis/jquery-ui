@@ -102,4 +102,6 @@ $.effects.effect.explode = function( o, done ) {
 	}
 };
 
+return $.effects.effect.explode;
+
 }));

@@ -510,4 +510,6 @@ $.widget( "ui.spinner", {
 	}
 });
 
+return $.ui.spinner;
+
 }));

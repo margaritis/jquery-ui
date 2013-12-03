@@ -55,4 +55,6 @@ $.effects.effect.puff = function( o, done ) {
 	elem.effect( o );
 };
 
+return $.effects.effect.puff;
+
 }));

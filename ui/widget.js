@@ -537,4 +537,6 @@ $.each( { show: "fadeIn", hide: "fadeOut" }, function( method, defaultEffect ) {
 	};
 });
 
+return $.widget;
+
 }));

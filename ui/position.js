@@ -502,4 +502,7 @@ $.ui.position = {
 })();
 
 })();
+
+return $.ui.position;
+
 }));

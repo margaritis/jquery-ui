@@ -55,4 +55,6 @@ $.effects.effect.highlight = function( o, done ) {
 		});
 };
 
+return $.effects.effect.highlight;
+
 }));

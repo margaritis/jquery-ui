@@ -81,4 +81,6 @@ $.effects.effect.fold = function( o, done ) {
 
 };
 
+return $.effects.effect.fold;
+
 }));

@@ -1290,4 +1290,6 @@ $.each( baseEasings, function( name, easeIn ) {
 
 })();
 
+return $.effects;
+
 }));

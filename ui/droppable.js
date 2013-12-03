@@ -409,4 +409,6 @@ $.ui.ddmanager = {
 	}
 };
 
+return $.ui.droppable;
+
 }));

@@ -79,4 +79,6 @@ $.effects.effect.shake = function( o, done ) {
 
 };
 
+return $.effects.effect.shake;
+
 }));

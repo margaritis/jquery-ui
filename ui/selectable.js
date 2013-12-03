@@ -282,4 +282,6 @@ $.widget("ui.selectable", $.ui.mouse, {
 
 });
 
+return $.ui.selectable;
+
 }));

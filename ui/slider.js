@@ -687,4 +687,6 @@ $.widget( "ui.slider", $.ui.mouse, {
 	}
 });
 
+return $.ui.slider;
+
 }));

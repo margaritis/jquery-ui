@@ -405,4 +405,6 @@ $.widget( "ui.tooltip", {
 	}
 });
 
+return $.ui.tooltip;
+
 }));

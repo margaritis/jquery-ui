@@ -84,4 +84,6 @@ $.effects.effect.scale = function( o, done ) {
 
 };
 
+return $.effects.effect.scale;
+
 }));

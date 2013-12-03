@@ -849,4 +849,6 @@ $.widget( "ui.dialog", {
 	}
 });
 
+return $.ui.dialog;
+
 }));

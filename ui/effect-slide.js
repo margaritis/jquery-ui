@@ -69,4 +69,6 @@ $.effects.effect.slide = function( o, done ) {
 	});
 };
 
+return $.effects.effect.slide;
+
 }));

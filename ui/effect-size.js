@@ -228,4 +228,6 @@ $.effects.effect.size = function( o, done ) {
 
 };
 
+return $.effects.effect.size;
+
 }));

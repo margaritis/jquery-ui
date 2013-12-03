@@ -570,4 +570,6 @@ $.widget( "ui.accordion", {
 	}
 });
 
+return $.ui.accordion;
+
 }));

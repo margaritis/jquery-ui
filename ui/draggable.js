@@ -1003,4 +1003,6 @@ $.ui.plugin.add("draggable", "zIndex", {
 	}
 });
 
+return $.ui.draggable;
+
 }));

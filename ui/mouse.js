@@ -182,4 +182,6 @@ $.widget("ui.mouse", {
 	_mouseCapture: function(/* event */) { return true; }
 });
 
+return $.ui.mouse;
+
 }));

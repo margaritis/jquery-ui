@@ -528,4 +528,6 @@ $.widget( "ui.selectmenu", {
 	}
 });
 
+return $.ui.selectmenu;
+
 }( jQuery ));

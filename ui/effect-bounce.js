@@ -118,4 +118,6 @@ $.effects.effect.bounce = function( o, done ) {
 
 };
 
+return $.effects.effect.bounce;
+
 }));

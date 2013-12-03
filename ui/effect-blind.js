@@ -85,4 +85,6 @@ $.effects.effect.blind = function( o, done ) {
 	});
 };
 
+return $.effects.effect.blind;
+
 }));

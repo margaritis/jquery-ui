@@ -398,4 +398,6 @@ $.widget( "ui.buttonset", {
 	}
 });
 
+return $.ui.button;
+
 }));

@@ -35,4 +35,6 @@ $.effects.effect.fade = function( o, done ) {
 	});
 };
 
+return $.effects.effect.fade;
+
 }));

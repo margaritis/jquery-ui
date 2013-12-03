@@ -607,4 +607,6 @@ $.widget( "ui.autocomplete", $.ui.autocomplete, {
 	}
 });
 
+return $.ui.autocomplete;
+
 }));

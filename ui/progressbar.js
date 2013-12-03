@@ -154,4 +154,6 @@ $.widget( "ui.progressbar", {
 	}
 });
 
+return $.ui.progressbar;
+
 }));

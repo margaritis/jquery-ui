@@ -72,4 +72,6 @@ $.effects.effect.clip = function( o, done ) {
 
 };
 
+return $.effects.effect.clip;
+
 }));

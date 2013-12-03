@@ -863,4 +863,6 @@ $.widget( "ui.tabs", {
 	}
 });
 
+return $.ui.tabs;
+
 }));

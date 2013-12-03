@@ -68,4 +68,6 @@ $.effects.effect.pulsate = function( o, done ) {
 	elem.dequeue();
 };
 
+return $.effects.effect.pulsate;
+
 }));

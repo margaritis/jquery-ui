@@ -52,4 +52,6 @@ $.effects.effect.transfer = function( o, done ) {
 			});
 };
 
+return $.effects.effect.transfer;
+
 }));

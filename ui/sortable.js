@@ -1283,4 +1283,6 @@ $.widget("ui.sortable", $.ui.mouse, {
 
 });
 
+return $.ui.sortable;
+
 }));

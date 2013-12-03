@@ -70,4 +70,6 @@ $.effects.effect.drop = function( o, done ) {
 	});
 };
 
+return $.effects.effect.drop;
+
 }));

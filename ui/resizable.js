@@ -997,4 +997,6 @@ $.ui.plugin.add("resizable", "grid", {
 
 });
 
+return $.ui.resizable;
+
 }));
