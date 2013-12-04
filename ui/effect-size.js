@@ -21,7 +21,7 @@
 	}
 }(function( $ ) {
 
-$.effects.effect.size = function( o, done ) {
+return $.effects.effect.size = function( o, done ) {
 
 	// Create element
 	var original, baseline, factor,
@@ -227,7 +227,5 @@ $.effects.effect.size = function( o, done ) {
 	});
 
 };
-
-return $.effects.effect.size;
 
 }));

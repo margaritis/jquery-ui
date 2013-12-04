@@ -21,7 +21,7 @@
 	}
 }(function( $ ) {
 
-$.effects.effect.blind = function( o, done ) {
+return $.effects.effect.blind = function( o, done ) {
 	// Create element
 	var el = $( this ),
 		rvertical = /up|down|vertical/,
@@ -84,7 +84,5 @@ $.effects.effect.blind = function( o, done ) {
 		}
 	});
 };
-
-return $.effects.effect.blind;
 
 }));

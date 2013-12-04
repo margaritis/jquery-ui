@@ -22,7 +22,7 @@
 	}
 }(function( $ ) {
 
-$.widget( "ui.tabs", {
+return $.widget( "ui.tabs", {
 	version: "@VERSION",
 	delay: 300,
 	options: {
@@ -862,7 +862,5 @@ $.widget( "ui.tabs", {
 		return this.element.find( this._sanitizeSelector( "#" + id ) );
 	}
 });
-
-return $.ui.tabs;
 
 }));

@@ -22,7 +22,7 @@
 	}
 }(function( $ ) {
 
-$.effects.effect.scale = function( o, done ) {
+return $.effects.effect.scale = function( o, done ) {
 
 	// Create element
 	var el = $( this ),
@@ -83,7 +83,5 @@ $.effects.effect.scale = function( o, done ) {
 	el.effect( options );
 
 };
-
-return $.effects.effect.scale;
 
 }));

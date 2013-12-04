@@ -21,7 +21,7 @@
 	}
 }(function( $ ) {
 
-$.effects.effect.highlight = function( o, done ) {
+return $.effects.effect.highlight = function( o, done ) {
 	var elem = $( this ),
 		props = [ "backgroundImage", "backgroundColor", "opacity" ],
 		mode = $.effects.setMode( elem, o.mode || "show" ),
@@ -54,7 +54,5 @@ $.effects.effect.highlight = function( o, done ) {
 			}
 		});
 };
-
-return $.effects.effect.highlight;
 
 }));

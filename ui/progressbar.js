@@ -22,7 +22,7 @@
 	}
 }(function( $ ) {
 
-$.widget( "ui.progressbar", {
+return $.widget( "ui.progressbar", {
 	version: "@VERSION",
 	options: {
 		max: 100,
@@ -153,7 +153,5 @@ $.widget( "ui.progressbar", {
 		}
 	}
 });
-
-return $.ui.progressbar;
 
 }));

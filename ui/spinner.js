@@ -34,7 +34,7 @@ function spinner_modifier( fn ) {
 	};
 }
 
-$.widget( "ui.spinner", {
+return $.widget( "ui.spinner", {
 	version: "@VERSION",
 	defaultElement: "<input>",
 	widgetEventPrefix: "spin",
@@ -509,7 +509,5 @@ $.widget( "ui.spinner", {
 		return this.uiSpinner;
 	}
 });
-
-return $.ui.spinner;
 
 }));

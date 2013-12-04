@@ -21,7 +21,7 @@
 	}
 }(function( $ ) {
 
-$.effects.effect.fade = function( o, done ) {
+return $.effects.effect.fade = function( o, done ) {
 	var el = $( this ),
 		mode = $.effects.setMode( el, o.mode || "toggle" );
 
@@ -34,7 +34,5 @@ $.effects.effect.fade = function( o, done ) {
 		complete: done
 	});
 };
-
-return $.effects.effect.fade;
 
 }));

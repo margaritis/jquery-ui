@@ -21,7 +21,7 @@
 	}
 }(function( $ ) {
 
-$.effects.effect.drop = function( o, done ) {
+return $.effects.effect.drop = function( o, done ) {
 
 	var el = $( this ),
 		props = [ "position", "top", "bottom", "left", "right", "opacity", "height", "width" ],
@@ -69,7 +69,5 @@ $.effects.effect.drop = function( o, done ) {
 		}
 	});
 };
-
-return $.effects.effect.drop;
 
 }));

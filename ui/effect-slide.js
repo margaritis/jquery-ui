@@ -21,7 +21,7 @@
 	}
 }(function( $ ) {
 
-$.effects.effect.slide = function( o, done ) {
+return $.effects.effect.slide = function( o, done ) {
 
 	// Create element
 	var el = $( this ),
@@ -68,7 +68,5 @@ $.effects.effect.slide = function( o, done ) {
 		}
 	});
 };
-
-return $.effects.effect.slide;
 
 }));

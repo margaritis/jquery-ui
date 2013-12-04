@@ -21,7 +21,7 @@
 	}
 }(function( $ ) {
 
-$.effects.effect.transfer = function( o, done ) {
+return $.effects.effect.transfer = function( o, done ) {
 	var elem = $( this ),
 		target = $( o.to ),
 		targetFixed = target.css( "position" ) === "fixed",
@@ -51,7 +51,5 @@ $.effects.effect.transfer = function( o, done ) {
 				done();
 			});
 };
-
-return $.effects.effect.transfer;
 
 }));

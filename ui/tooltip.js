@@ -23,7 +23,7 @@
 	}
 }(function( $ ) {
 
-$.widget( "ui.tooltip", {
+return $.widget( "ui.tooltip", {
 	version: "@VERSION",
 	options: {
 		content: function() {
@@ -404,7 +404,5 @@ $.widget( "ui.tooltip", {
 		});
 	}
 });
-
-return $.ui.tooltip;
 
 }));

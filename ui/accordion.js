@@ -22,7 +22,7 @@
 	}
 }(function( $ ) {
 
-$.widget( "ui.accordion", {
+return $.widget( "ui.accordion", {
 	version: "@VERSION",
 	options: {
 		active: 0,
@@ -569,7 +569,5 @@ $.widget( "ui.accordion", {
 		this._trigger( "activate", null, data );
 	}
 });
-
-return $.ui.accordion;
 
 }));

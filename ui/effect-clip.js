@@ -21,7 +21,7 @@
 	}
 }(function( $ ) {
 
-$.effects.effect.clip = function( o, done ) {
+return $.effects.effect.clip = function( o, done ) {
 	// Create element
 	var el = $( this ),
 		props = [ "position", "top", "bottom", "left", "right", "height", "width" ],
@@ -71,7 +71,5 @@ $.effects.effect.clip = function( o, done ) {
 	});
 
 };
-
-return $.effects.effect.clip;
 
 }));

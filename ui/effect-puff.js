@@ -22,7 +22,7 @@
 	}
 }(function( $ ) {
 
-$.effects.effect.puff = function( o, done ) {
+return $.effects.effect.puff = function( o, done ) {
 	var elem = $( this ),
 		mode = $.effects.setMode( elem, o.mode || "hide" ),
 		hide = mode === "hide",
@@ -54,7 +54,5 @@ $.effects.effect.puff = function( o, done ) {
 
 	elem.effect( o );
 };
-
-return $.effects.effect.puff;
 
 }));

@@ -21,7 +21,7 @@
 	}
 }(function( $ ) {
 
-$.effects.effect.shake = function( o, done ) {
+return $.effects.effect.shake = function( o, done ) {
 
 	var el = $( this ),
 		props = [ "position", "top", "bottom", "left", "right", "height", "width" ],
@@ -78,7 +78,5 @@ $.effects.effect.shake = function( o, done ) {
 	el.dequeue();
 
 };
-
-return $.effects.effect.shake;
 
 }));

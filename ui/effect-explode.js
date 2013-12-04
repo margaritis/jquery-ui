@@ -21,7 +21,7 @@
 	}
 }(function( $ ) {
 
-$.effects.effect.explode = function( o, done ) {
+return $.effects.effect.explode = function( o, done ) {
 
 	var rows = o.pieces ? Math.round( Math.sqrt( o.pieces ) ) : 3,
 		cells = rows,
@@ -101,7 +101,5 @@ $.effects.effect.explode = function( o, done ) {
 		done();
 	}
 };
-
-return $.effects.effect.explode;
 
 }));

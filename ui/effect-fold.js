@@ -21,7 +21,7 @@
 	}
 }(function( $ ) {
 
-$.effects.effect.fold = function( o, done ) {
+return $.effects.effect.fold = function( o, done ) {
 
 	// Create element
 	var el = $( this ),
@@ -80,7 +80,5 @@ $.effects.effect.fold = function( o, done ) {
 		});
 
 };
-
-return $.effects.effect.fold;
 
 }));

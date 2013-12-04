@@ -23,7 +23,7 @@
 	}
 }(function( $ ) {
 
-$.widget( "ui.slider", $.ui.mouse, {
+return $.widget( "ui.slider", $.ui.mouse, {
 	version: "@VERSION",
 	widgetEventPrefix: "slide",
 
@@ -686,7 +686,5 @@ $.widget( "ui.slider", $.ui.mouse, {
 		}
 	}
 });
-
-return $.ui.slider;
 
 }));

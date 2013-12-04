@@ -23,7 +23,7 @@
 	}
 }(function( $ ) {
 
-$.widget("ui.sortable", $.ui.mouse, {
+return $.widget("ui.sortable", $.ui.mouse, {
 	version: "@VERSION",
 	widgetEventPrefix: "sort",
 	ready: false,
@@ -1282,7 +1282,5 @@ $.widget("ui.sortable", $.ui.mouse, {
 	}
 
 });
-
-return $.ui.sortable;
 
 }));

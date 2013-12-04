@@ -23,7 +23,7 @@
 	}
 }(function( $ ) {
 
-$.widget("ui.selectable", $.ui.mouse, {
+return $.widget("ui.selectable", $.ui.mouse, {
 	version: "@VERSION",
 	options: {
 		appendTo: "body",
@@ -281,7 +281,5 @@ $.widget("ui.selectable", $.ui.mouse, {
 	}
 
 });
-
-return $.ui.selectable;
 
 }));

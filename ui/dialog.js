@@ -27,7 +27,7 @@
 	}
 }(function( $ ) {
 
-$.widget( "ui.dialog", {
+return $.widget( "ui.dialog", {
 	version: "@VERSION",
 	options: {
 		appendTo: "body",
@@ -848,7 +848,5 @@ $.widget( "ui.dialog", {
 		}
 	}
 });
-
-return $.ui.dialog;
 
 }));

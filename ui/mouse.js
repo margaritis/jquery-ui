@@ -26,7 +26,7 @@ $( document ).mouseup( function() {
 	mouseHandled = false;
 });
 
-$.widget("ui.mouse", {
+return $.widget("ui.mouse", {
 	version: "@VERSION",
 	options: {
 		cancel: "input,textarea,button,select,option",
@@ -181,7 +181,5 @@ $.widget("ui.mouse", {
 	_mouseStop: function(/* event */) {},
 	_mouseCapture: function(/* event */) { return true; }
 });
-
-return $.ui.mouse;
 
 }));
